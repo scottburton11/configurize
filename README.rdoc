@@ -1,6 +1,20 @@
 = configurize
 
-Description goes here.
+Easily makes a Ruby class or module configurable. Config classes use the hash-key literal syntax to get and set configuration. Config files are managed automatically.
+
+== How-To
+
+Extend Configurize and go:
+
+  module MyConfig # file is ./config/my_config.yml
+    extend Configurize
+  end
+
+  MyConfig[:name] = "Super Awesome Website"
+  MyConfig[:logo] = "http://s3.amazonaws.com/my/logo.jpg"
+
+  MyConfig[:name]
+  # => "Super Awesome Website"
 
 == Note on Patches/Pull Requests
  
