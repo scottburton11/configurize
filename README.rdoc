@@ -16,6 +16,10 @@ Extend Configurize and go:
   MyConfig[:name]
   # => "Super Awesome Website"
 
+== Why
+
+Configurize is a dead-simple, lightweight config mixin. For fancier more powerful options, check out the excellent Configurable at http://github.com/bahuvrihi/configurable/tree/master
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
