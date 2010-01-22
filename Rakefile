@@ -11,7 +11,7 @@ begin
     gem.homepage = "http://github.com/scottburton11/configurize"
     gem.authors = ["Scott Burton"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_dependency "facets"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
