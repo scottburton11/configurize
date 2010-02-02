@@ -30,7 +30,7 @@ module Configurize
 
   def config_file_path
     if defined?(Rails)
-      File.expand_path(Rails.root + "/config/#{config_file_name}")
+      File.expand_path(Rails.root + "config/#{config_file_name}")
     else
       File.expand_path(__FILE__ + "/../../config/#{config_file_name}")
     end
