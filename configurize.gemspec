@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{configurize}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Burton"]
-  s.date = %q{2010-01-21}
+  s.date = %q{2010-02-01}
   s.description = %q{Configurize makes your Ruby class configurable by providing a read-write interface to a flat YAML file stored in your application's config directory.}
   s.email = %q{scottburton11@gmail.com}
   s.extra_rdoc_files = [
@@ -35,8 +35,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Configurize makes your ruby class configurable}
   s.test_files = [
-    "spec/spec_helper.rb",
-     "spec/configurize_spec.rb"
+    "spec/configurize_spec.rb",
+     "spec/spec_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
